@@ -40,6 +40,5 @@ public class Follower {
             channel.basicConsume(queueName, true, deliverCallback, consumerTag -> {
             });
         }
-
     }
 }
