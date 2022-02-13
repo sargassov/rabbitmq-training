@@ -27,7 +27,6 @@ public class Follower {
             System.out.println("QUEUE NAME: " + queueName);
             ;
             channel.queueBind(queueName, EXCHANGE_NAME, routingKey);
-
             DeliverCallback deliverCallback = (consumerTag, delivery) -> {
                 System.out.println(" [*] Waiting for messages with routing key (" + routingKey + "):");
                 String message = new String(delivery.getBody(), "UTF-8");
