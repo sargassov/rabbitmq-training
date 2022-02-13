@@ -1,7 +1,5 @@
 package com.rabbitmq.trainig.source.followers;
-
 import com.rabbitmq.client.*;
-
 import java.util.Scanner;
 
 public class Follower {
