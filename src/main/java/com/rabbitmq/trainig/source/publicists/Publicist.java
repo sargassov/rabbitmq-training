@@ -6,6 +6,7 @@ import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
 import java.util.Scanner;
 
+
 public class Publicist {
     private static final String EXCHANGE_NAME = "exchanger";
     private static Scanner scanner;
